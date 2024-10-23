@@ -8,8 +8,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "simple-git": "^3.25.0"
-  }
+    "simple-git": "^3.27.0"
+  },
+  "description": ""
 }

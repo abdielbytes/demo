@@ -19,10 +19,10 @@ function formatDate(date) {
 // Generate all the dates for the year up to today
 function generateDates() {
     const dates = [];
-    const startDate = new Date(today.getFullYear(), 4, 1);
+    const startDate = new Date(today.getFullYear(), 8, 8);
     let currentDate = startDate;
     while (currentDate <= today) {
-        for (let i = 0; i < 1; i++) {
+        for (let i = 0; i < 5; i++) {
             dates.push(new Date(currentDate));  // push the same date 5 times for 5 commits
         }
         currentDate.setDate(currentDate.getDate() + 1);
